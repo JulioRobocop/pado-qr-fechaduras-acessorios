@@ -3,6 +3,11 @@
 @theme {
   --font-univers: 'UniversNextPro', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'InputMono', ui-monospace, monospace;
+  --color-pado-black: #000000;
+  --color-pado-wine: #4f1528;
+  --color-pado-pink: #ed0ced;
+  --color-pado-light: #f5f5f5; /* Placeholder for now */
+  --color-pado-gray: #dbdbdb; /* Placeholder for now */
 }
 
 @font-face {
