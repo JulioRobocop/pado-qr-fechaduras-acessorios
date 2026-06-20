@@ -11,8 +11,8 @@ import padoLogo from '/logo/pado_logo_cinza.svg'
       <h1 class="font-univers font-bold text-pado-light text-2xl text-center">
         Bem-vindo à
       </h1>
-      <img :src="padoLogo" alt="Pado's logo">
-      <nav class="relative w-full max-w-xs border border-pado-gray rounded-xl p-5 pt-7">
+      <img :src="padoLogo" alt="Pado's logo" class="max-w-100">
+      <nav class="relative w-full max-w-xs border-3 border-pado-gray rounded-xl p-5 pt-7">
         <span
           class="absolute -top-3 left-6 px-2 bg-pado-black font-mono text-sm text-pado-gray uppercase tracking-wide">
           Selecione seu novo produto
