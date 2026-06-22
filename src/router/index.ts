@@ -17,6 +17,11 @@ const router = createRouter({
       component: LocksView,
     },
     {
+      path: '/fechaduras/:slug',
+      name: 'lock-detail',
+      component: () => import('@/views/LockDetailView.vue'),
+    },
+    {
       path: '/acessorios',
       name: 'acessorios',
       component: AccessoriesView,
