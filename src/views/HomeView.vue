@@ -20,11 +20,11 @@ import padoLogo from '/logo/pado_logo_cinza.svg'
 
         <div class="flex flex-col gap-4">
           <RouterLink to="/fechaduras" class="font-medium text-center py-4 rounded-lg bg-pado-wine text-pado-light
-          transition-colors active:bg-pado-pink">
+          transition-colors active:border-pado-pink">
             FECHADURAS
           </RouterLink>
           <RouterLink to="/acessorios" class="font-medium text-center py-4 rounded-lg bg-pado-wine text-pado-light
-        transition-colors active:bg-pado-pink">
+        transition-colors active:border-pado-pink">
             ACESSÓRIOS
           </RouterLink>
         </div>
