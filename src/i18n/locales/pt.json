@@ -1,0 +1,28 @@
+{
+    "home": {
+        "tagline": "Bem-vindo à",
+        "selectDevice": "Selecione seu novo produto",
+        "lockButton": "Fechaduras",
+        "accessoryButton": "Acessórios"
+    },
+    "lockPicker": {
+        "title": "Escolha sua fechadura",
+        "name": "Fechadura"
+    },
+    "accessoryPicker": {
+        "title": "Escolha seu acessório"
+    },
+    "lockDetail": {
+        "back": "← Voltar",
+        "lock": "Fechadura",
+        "error": "Produto não encontrado"
+    },
+    "accessoryDetail": {
+        "back": "← Voltar",
+        "error": "Produto não encontrado"
+    },
+    "button": {
+        "manual": "Manual digital",
+        "template": "Gabarito de instalação"
+    }
+}

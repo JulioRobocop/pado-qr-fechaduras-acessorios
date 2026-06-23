@@ -1,0 +1,28 @@
+{
+    "home": {
+        "tagline": "Welcome to",
+        "selectDevice": "Select your new device",
+        "lockButton": "Locks",
+        "accessoryButton": "Accessories"
+    },
+    "lockPicker": {
+        "title": "Choose your lock",
+        "name": "Lock"
+    },
+    "accessoryPicker": {
+        "title": "Choose your accessory"
+    },
+    "lockDetail": {
+        "back": "← Back",
+        "lock": "Lock",
+        "error": "Device not found"
+    },
+    "accessoryDetail": {
+        "back": "← Back",
+        "error": "Device not found"
+    },
+    "button": {
+        "manual": "Digital manual",
+        "template": "Installation template"
+    }
+}

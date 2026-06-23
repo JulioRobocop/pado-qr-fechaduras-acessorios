@@ -1,0 +1,28 @@
+{
+    "home": {
+        "tagline": "Bienvenido a",
+        "selectDevice": "Seleccione su nuevo producto",
+        "lockButton": "Cerraduras",
+        "accessoryButton": "Accesorios"
+    },
+    "lockPicker": {
+        "title": "Elija su cerradura",
+        "name": "Cerradura"
+    },
+    "accessoryPicker": {
+        "title": "Elija su accesorio"
+    },
+    "lockDetail": {
+        "back": "← Volver",
+        "lock": "Cerradura",
+        "error": "Dispositivo no encontrado"
+    },
+    "accessoryDetail": {
+        "back": "← Volver",
+        "error": "Dispositivo no encontrado"
+    },
+    "button": {
+        "manual": "Manual digital",
+        "template": "Plantilla de instalación"
+    }
+}
