@@ -1,24 +1,30 @@
 <script setup lang="ts">
+import { ChevronLeft } from 'lucide-vue-next';
+import { useI18n } from 'vue-i18n';
 import { locks } from '@/data/locks'
 import padoLogo from '/logo/pado_logo_cinza.svg'
-import { ChevronLeft } from '@lucide/vue';
+import LanguageSelector from '@/components/LanguageSelector.vue';
+
+const { t } = useI18n()
 </script>
 
 <template>
-  <main class="min-h-screen bg-pado-black flex flex-col px-6 py-6">
-    <header class="flex justify-center mb-6">
-      <RouterLink to="/">
-        <ChevronLeft class="size-3 bg-white" />
+  <main class="min-h-screen bg-pado-black flex flex-col py-6 px-2">
+    <header class="relative flex justify-between items-center mb-6 ">
+      <img :src="padoLogo" alt="Pado" class="h-9" />
+      <LanguageSelector />
+    </header>
+    <div class="relative flex items-center mb-8">
+      <RouterLink to="/" class="absolute left-0 text-pado-light transition-colors active:text-pado-pink">
+        <ChevronLeft class="size-7" />
       </RouterLink>
 
-      <img :src="padoLogo" alt="Pado" class="h-9" />
-    </header>
+      <h1 class="font-univers font-bold text-pado-light text-2xl text-center w-full">
+        {{ t('lockPicker.title') }}:
+      </h1>
+    </div>
 
-    <h1 class="font-univers font-bold text-pado-light text-2xl text-center mb-8">
-      Escolha sua fechadura
-    </h1>
-
-    <ul class="grid grid-cols-2 gap-4 max-w-md mx-auto w-full">
+    <ul class="grid grid-cols-2 gap-4 max-w-md mx-auto w-full px-6">
       <li v-for="lock in locks" :key="lock.slug">
         <RouterLink :to="`/fechaduras/${lock.slug}`" class="flex flex-col items-center gap-3 p-5 rounded-xl
                  border border-pado-wine bg-pado-wine/70
