@@ -10,5 +10,3 @@ import { RouterView } from 'vue-router';
     </Transition>
   </RouterView>
 </template>
-
-<style scoped></style>
