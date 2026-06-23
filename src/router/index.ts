@@ -26,6 +26,11 @@ const router = createRouter({
       name: 'acessorios',
       component: AccessoriesView,
     },
+    {
+      path: '/acessorios/:slug',
+      name: 'accessory-detail',
+      component: () => import('@/views/AccessoryDetailView.vue'),
+    },
   ],
 })
 
